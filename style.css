@@ -114,8 +114,16 @@ body {
     text-decoration: underline;
 }
 .site-header {
-    background-color: #2ea3b7;
     padding: 60px 0;
+    min-height: 220px;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("images/banner-image.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header-inner {
@@ -232,4 +240,8 @@ body {
 .back a:focus {
     outline: 3px solid #000;
     outline-offset: 3px;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
